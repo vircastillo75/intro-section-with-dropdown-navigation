@@ -19,10 +19,12 @@ body{
     font-size:  18px;
 }
 button{
+  font-family: "Epilogue";
   background-color: var(--Almost-White);
   border: none;
   cursor: pointer;
   color: var(--Medium-Gray);
+  font-size: 1em;
 
 }
 header{
@@ -31,11 +33,11 @@ header{
     justify-content: space-between;
     margin: 16px 16px 24px;
     & .hamburger-menu{
-        display: none;
+        /*display: none;*/
     }
 
     & nav{
-      /*  display: none;*/
+       display: none;
       color: var(--Medium-Gray);
       & .back{
         background-color: var(--Medium-Gray);
@@ -70,16 +72,37 @@ header{
         display: none;
       }
 
+      & .submenu-btn{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 24px 0;
+        width: 110px;
+        height: 26px;
+      }
+      & .btns-container{
+        position: absolute;
+        bottom: 124px;
+      }
+      & .login-btn{
+        display: block;
+        margin: 0 auto 16px;
+      }
+      & .register-btn{
+        border: 1px solid var(--Almost-Black);
+        width: 195px;
+        height: 42px;
+        border-radius: 14px;
+      }
+
       
     }
 }
 
+main{
+  
+}
 
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
+
+
