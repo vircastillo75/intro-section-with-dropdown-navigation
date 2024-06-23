@@ -13,15 +13,13 @@ The designs were created to the following widths:
 
 ### Neutral
 
-- Almost White: hsl(0, 0%, 98%)
-- Medium Gray: hsl(0, 0%, 41%)
-- Almost Black: hsl(0, 0%, 8%)
+
 
 ## Typography
 
 ### Body Copy
 
-- Font size (paragraph): 18px
+
 
 ### Font
 
