@@ -34,14 +34,15 @@ header{
     margin: 16px 16px 24px;
     & .hamburger-menu{
         /*display: none;*/
+        cursor: pointer;
     }
 
     & nav{
-       display: none;
+      display: none;
       color: var(--Medium-Gray);
       & .back{
         background-color: var(--Medium-Gray);
-        /*opacity: 0.75;*/
+        opacity: 0.75;
         position: absolute;
         left: 0;
         top: 0;
@@ -54,6 +55,7 @@ header{
         width: 240px;
         position: absolute;
         right: 0;
+        top: 0;
         height: 780px;
         padding: 20px;
       }
@@ -71,6 +73,7 @@ header{
         margin-left: 28px;
         display: none;
       }
+      
 
       & .submenu-btn{
         display: flex;
@@ -100,8 +103,61 @@ header{
 }
 
 main{
-  
+  display: flex;
+  flex-direction: column-reverse;
+  & .hero-image{
+    width: 100%;
+    margin-bottom: 48px;
+  }
+  & h2{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 16px;
+  }
+  & p{
+    text-align: center;
+    line-height: 26px;
+    color: var(--Medium-Gray);
+    margin: 0 16px 24px;
+    font-size: 0.89em;
+  }
+  & button{
+    background-color: var(--Almost-Black);
+    color: var(--Almost-White);
+    width: 136px;
+    height: 48px;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 52px;
+    &:hover{
+      background-color: var(--Almost-White);
+      color: var(--Almost-Black);
+      border: 1px solid var(--Almost-Black);
+    }
+  }
+  & .logos-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    margin-bottom: 96px;
+  }
+  & .databiz{
+    width: 81px;
+  }
+  & .audio{
+    width: 52px;
+  }
+  & .meet{
+    width: 64px;
+  }
+  & .maker{
+    width: 59px;
+  }
 }
+
+
 
 
 
